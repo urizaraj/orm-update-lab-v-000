@@ -34,7 +34,7 @@ class Student
       self.update
       return
     end
-    
+
     sql = <<-SQL
     INSERT INTO students (name, grade)
     VALUES (?, ?)
